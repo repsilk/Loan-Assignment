@@ -8,45 +8,48 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+> Like most other lending companies, lending loans to RISKY applicants is the largest source of financial loss (called credit loss). In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'. The case study analyses the dataset for identification of RISKY applicants, that thereby cut-down the losses incurred by the lenders. The project performs univariate and bivariate analysis and establishes relationship between varibles to identify risks parameters.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- People with annual income 30k-60k are more likely to default.
+- People with sanctioned loan amount of 5k-10k are more likely to default.
+- People with term period of 36 months are more likely to default.
+- People Not Verified are more likely to default.
+- People with interest rate of 13%-17% are more likely to default.
+- People with work experience of 10/10+ years are more likely to default.
+- People who apply loan for clearing other loan are more likely to default.
+- People with RENT are more likely to default.
+- People under B5 grade are more likey to default.
+- People who sanctioned with 17500 - 20000 and having an annual income of 105k-135k are more likely to default.
+- People with loan_amnt 14k-16k with term period of 60 months are more likely to default.
+- People with loan_amnt 20k-35k with int_rate of 15%-17% are more likely to default.
+- People with 10 years of exp and having 12k-14k loan_amnt are more likely to default.
+- People with purpose home_improvement and annual_inc of 60k-70k are more likely to default.
+- People with MORTAGE and with loan_amnt of 12k-14k are more likely to default.
+- People Verified and with 60k+ annual_inc are more likely to default.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Libraries Used
+- Python Numpy
+- Python Pandas
+- Python Seaborn
+- Python MatplotLib
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project is the assigment from Upgrad(ML and AI PGD program).
+- Visit (https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html).
+- Visit (https://pandas.pydata.org/docs/reference/api/pandas.cut.html)
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@repsilk],[@abhi9454] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
